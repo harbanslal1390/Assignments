@@ -3,7 +3,7 @@ public class MethodwithThisKeyword {
 	
 	public void defaultmethod()
 	{   this.threeParameterizedMethod(10,20,30);
-		System.out.println("I am default parametrized method");
+		System.out.println("I am default method");
 	}
 	public void oneParameterizedMethod(int a)
 	{

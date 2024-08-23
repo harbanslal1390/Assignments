@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ScannerClass {
+public class ScannerClass2 {
 	
 	
 	public static int sum(int a, int b)
@@ -42,12 +42,12 @@ public class ScannerClass {
 		System.out.println("Enter the value of x6 :");
 		int x6=objScanner.nextInt();
 	
-		ScannerClass obj= new ScannerClass();
-		int mul=obj.Mul(x1, x2);
-		int sum1=obj.sum(x3, mul);
-		int mul1=obj.Mul(sum1, x4);
-		int sub=obj.sub(mul1, x5);
-		obj.Div(sub, x6);
+		ScannerClass2 obj= new ScannerClass2();
+		int sum=obj.sum(x1, x2);
+		int sum1=obj.sum(x3, sum);
+		int sub=obj.sub(sum1, x4);
+		int mul=obj.Mul(sub, x5);
+		obj.Div(mul, x6);
 		
 		
 		
